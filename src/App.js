@@ -1,9 +1,11 @@
-import Navbar from './Navbar';
-import Home from './Home';
-import Create from './Create';
-import BlogDetails from './BlogDetails';
-import NotFound from './NotFound';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// pages
+import Home from './pages/Home';
+import Create from './pages/Create';
+// components
+import Navbar from './components/Navbar';
+import BlogDetails from './components/BlogDetails';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
